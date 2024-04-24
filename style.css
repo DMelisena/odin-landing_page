@@ -23,16 +23,62 @@ body{
 
 }
 .right-header{
+  padding-left:0px;
   display:flex;
   flex:0 1 370px;
   align-items:center;
+  font-size:18px;
+  color:#E5E7EB; 
 }
+
+
 li{
   list-style-type:none;
-  padding:8px;
-  
+  margin:8px;
+  min-width: 123px;
+  text-align:center;
   }
 a{
   color:white;
   text-decoration:none;
   }
+
+.headline{
+  display:flex;
+  justify-content:space-between;
+  background:#1F2937;
+  max-width:80rem;
+  margin:0px auto;
+  align-items:center;
+}
+.headlineText{
+  display:flex;
+  flex-flow:column;
+}
+h1{
+  font:48px bold;
+  font-weight;
+  color:#F9FAF8;
+  margin:8px;
+}
+.headlineTextDesc{
+  max-width:600px;
+  text-align:left;
+  color:white;
+}
+.signup{
+  background: royalblue;
+  border: 1px solid royalblue;
+  color: white;
+  margin:8px;
+  border-radius:8px;
+  padding: 3px 8px ;
+}
+.headlineImage{
+    display:flex;
+    flex-basis:500px;
+    min-height: 250px;
+    background:grey;
+    margin:30px;
+    margin-right:0px;
+}
