@@ -1,0 +1,38 @@
+body{
+  margin:0px;
+}
+.heading{
+  background:#1F2937;
+  
+}
+.header{
+  display:flex;
+  justify-content:space-between;
+  background:#1F2937;
+  max-width:80rem;
+  margin:0px auto;
+  align-items:center;
+  
+  
+}
+.headerText{
+  font-size:24px;
+  color:#F9FAF8;
+}
+.left-header{
+
+}
+.right-header{
+  display:flex;
+  flex:0 1 370px;
+  align-items:center;
+}
+li{
+  list-style-type:none;
+  padding:8px;
+  
+  }
+a{
+  color:white;
+  text-decoration:none;
+  }
