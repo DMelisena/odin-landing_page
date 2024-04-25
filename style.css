@@ -75,10 +75,9 @@ h1{
   padding: 3px 8px ;
 }
 .headlineImage{
-    display:flex;
-    flex-basis:500px;
-    min-height: 250px;
+    flex:1 1 500px;
     background:grey;
-    margin:30px;
-    margin-right:0px;
+    aspect-ratio:16/9;
+    margin:30px 10px 30px 30px;
+
 }
