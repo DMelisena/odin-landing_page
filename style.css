@@ -24,6 +24,7 @@ body{
 }
 .right-header{
   padding-left:0px;
+  padding-right:30px;
   display:flex;
   flex:0 1 370px;
   align-items:center;
@@ -78,6 +79,6 @@ h1{
     flex:1 1 500px;
     background:grey;
     aspect-ratio:16/9;
-    margin:30px 10px 30px 30px;
+    margin:30px;
 
 }
