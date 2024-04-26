@@ -1,5 +1,7 @@
 body{
   margin:0px;
+  display:flex;
+  flex-flow:column;
 }
 .heading{
   background:#1F2937;
@@ -21,6 +23,7 @@ body{
   justify-content:flex-start;
   margin:8px;
 }
+
 .headerTextli{
   justify-content:flex-start;
 }
@@ -28,6 +31,7 @@ body{
 ul{
   padding:0 48px ;
 }
+
 .left-header{
   padding:0 56px;
 }
@@ -185,5 +189,12 @@ h1{
   background:#3882F6;
   border: solid white 2px;
   border-radius:5%;
-
 }
+.footer{
+  background:#1F2937;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:white;
+}
+
