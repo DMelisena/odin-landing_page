@@ -122,3 +122,23 @@ h1{
   border: solid #3b82f6 5px;
   border-radius:10%;
 }
+
+.secondSection{
+  background:lightgrey;
+  display:flex;
+}
+.quotesbox{
+  flex-flow:column;
+  margin:20px auto;
+  justify-content:center;
+  align-items:center;
+  max-width:65rem;
+}
+.quotes{
+}
+
+.quotesAuthor{
+  text-align:right;
+  margin:0px;
+
+}
