@@ -18,13 +18,22 @@ body{
 .headerText{
   font-size:24px;
   color:#F9FAF8;
+  justify-content:flex-start;
+  margin:8px;
+}
+.headerTextli{
+  justify-content:flex-start;
+}
+
+ul{
+  padding:0 48px ;
 }
 .left-header{
-
+  padding:0 56px;
 }
 .right-header{
   padding-left:0px;
-  padding-right:30px;
+  padding-right:40px;
   display:flex;
   flex:0 1 370px;
   align-items:center;
@@ -39,10 +48,12 @@ li{
   min-width: 123px;
   text-align:flex-end;
   margin-right:0px;
+  text-align:center;
   }
 a{
   color:white;
   text-decoration:none;
+  text-align:left;
   }
 
 .headline{
@@ -54,6 +65,7 @@ a{
   align-items:center;
   padding-bottom:30px;
 }
+
 .headlineText{
   display:flex;
   flex-flow:column;
@@ -81,6 +93,7 @@ h1{
     flex:1 1 500px;
     background:grey;
     aspect-ratio:16/9;
-    margin:30px;
+    margin:40px;
+}
 
 }
