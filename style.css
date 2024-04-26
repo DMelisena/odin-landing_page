@@ -52,6 +52,7 @@ a{
   max-width:80rem;
   margin:0px auto;
   align-items:center;
+  padding-bottom:30px;
 }
 .headlineText{
   display:flex;
