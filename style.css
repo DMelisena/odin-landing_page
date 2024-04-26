@@ -116,7 +116,9 @@ h1{
   align-self:center;
   flex:1 1 200px;
   max-width:200px;
-  background:grey;
+  background:white;
   aspect-ratio:1/1;
   margin:10px;
+  border: solid #3b82f6 5px;
+  border-radius:10%;
 }
