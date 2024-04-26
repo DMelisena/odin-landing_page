@@ -96,4 +96,27 @@ h1{
     margin:40px;
 }
 
+.frameShowcase{
+  display:flex;
+  margin:auto;
+  justify-content:center;
+  max-width:75rem;
+  padding: 40px 40px
+}
+
+.frame{
+  display:flex;
+  flex-flow:column;
+  max-width:250px;
+  margin:20px;
+
+}
+.frameImage{
+  margin:20px;
+  align-self:center;
+  flex:1 1 200px;
+  max-width:200px;
+  background:grey;
+  aspect-ratio:1/1;
+  margin:10px;
 }
