@@ -140,5 +140,50 @@ h1{
 .quotesAuthor{
   text-align:right;
   margin:0px;
+}
+
+.thirdSection{
+  display:flex;
+  justify-content:center;
+}
+
+.cta{
+  background:#3882F6;
+  border-radius:10px;
+  margin:50px auto;
+  max-width:65rem;
+  display:flex;
+  justify-content:space-between;
+  padding:10px 20px;
+}
+.cta-left{
+  display:flex;
+  flex-flow:column;
+  margin:10px 30px ;
+}
+#ctatitle{
+  text-align:left;
+  justify-content:flex-start;
+  max-width:600px;
+  color:white;
+  font-weight:bold;
+}
+#ctatext{
+  text-align:left;
+  justify-content:flex-start;
+  max-width:600px;
+  color:white;
+}
+
+.cta-right{
+  align-self:center;
+}
+
+.ctabutton{
+  color:white;
+  border:white;
+  background:#3882F6;
+  border: solid white 2px;
+  border-radius:5%;
 
 }
